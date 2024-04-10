@@ -1,7 +1,7 @@
 # Raspberry-Pi-Pico-UART
 I spent a few days with a tech consultancy company in Cambridge that specialises in embedded systems called eg Technology for Work Experience.
 During this time I worked on a Raspberry Pi Pico and a breadboard. My overall goal was to send values from an ADC through UART to a python program on my computer that 
-took this data and showed it graphically which scrolled across the screen as more data was received. I also programmed a way to manual 'scrub' through data that wasn't
+took this data and showed it graphically using matplotlib which scrolled across the screen as more data was received. I also programmed a way to manual 'scrub' through data that wasn't
 necessarily in the latest 20 seconds of data.
 
 I found a few ways to make the project more advanced, such as coding a flashing LED to signify when the UART was writing from the Raspberry Pi Pico to the Computer.
